@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "ESNext", // Enable ES module support
+      "target": "ES6",    // Use ES6 features
+      "outDir": "dist",   // Output compiled JS to a folder
+      "esModuleInterop": true, // Allow interoperability between `require` and `import`
+      "moduleResolution": "node",
+      "sourceMap": true
+    },
+    "include": ["src/**/*.ts"],  // Ensure TypeScript compiles your source files
+    "exclude": ["node_modules"]  // Ignore node_modules
+  }
+  
