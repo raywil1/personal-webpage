@@ -54,10 +54,11 @@ git push origin feature/your-feature-name
 Create a Pull Request: Navigate to the original repository and create a pull request from your branch. Provide a clear description of what changes you have made and link any related issues.
 
 Code Standards
-Code style: This project uses ESLint and Prettier for code formatting and linting. Please run linting before submitting your pull request.
-```
-npm run lint
-```
+Code style guidelines will be enforced with ESLint and Prettier in the future.
+At the moment a lint script has not been configured, so you can skip running
+`npm run lint`. Feel free to format your code according to common conventions.
+
+TODO: add an ESLint configuration and accompanying script.
 Feature Requests
 If you'd like to suggest a new feature, feel free to open an issue with a detailed description of the feature and how you envision it working. Pull requests for new features are also welcome.
 
