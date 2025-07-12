@@ -1,24 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React from 'react';
 
 const App: React.FC = () => {
-  const [data, setData] = useState<string | null>(null);
-
-  useEffect(() => {
-    // Make a GET request to the back-end API
-    axios.get('http://localhost:5000/api/data')
-      .then(response => {
-        setData(response.data.message);
-      })
-      .catch(error => {
-        console.error('There was an error fetching the data!', error);
-      });
-  }, []);
-
   return (
     <div>
-      <h1>Front-End</h1>
-      <p>Message from back-end: {data}</p>
+      <h1>Rayhan Wilangkara</h1>
+      <p>
+        I'm a Master's student at Arizona State University working towards an MS
+        in Computer Science, expected graduation 2027.
+      </p>
     </div>
   );
 };
