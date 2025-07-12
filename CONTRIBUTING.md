@@ -9,14 +9,14 @@ Thank you for considering contributing to my personal webpage! Contributions are
    ```bash
    git clone https://github.com/raywil1/personal-webpage.git
 
-Install dependencies: Navigate to the project directory and install the necessary dependencies.
+3. Install dependencies: Navigate to the project directory and install the necessary dependencies.
 
 ```bash
 cd personal-webpage
 npm install
 ```
 
-Run the project: To test locally, make sure both the front-end and back-end run on their designated ports.
+4. Run the project: To test locally, make sure both the front-end and back-end run on their designated ports.
 
 # For front-end
 ```
