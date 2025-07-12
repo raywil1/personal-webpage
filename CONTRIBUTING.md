@@ -9,14 +9,14 @@ Thank you for considering contributing to my personal webpage! Contributions are
    ```bash
    git clone https://github.com/raywil1/personal-webpage.git
 
-Install dependencies: Navigate to the project directory and install the necessary dependencies.
+3. Install dependencies: Navigate to the project directory and install the necessary dependencies.
 
 ```bash
 cd personal-webpage
 npm install
 ```
 
-Run the project: To test locally, make sure both the front-end and back-end run on their designated ports.
+4. Run the project: To test locally, make sure both the front-end and back-end run on their designated ports.
 
 # For front-end
 ```
@@ -54,10 +54,11 @@ git push origin feature/your-feature-name
 Create a Pull Request: Navigate to the original repository and create a pull request from your branch. Provide a clear description of what changes you have made and link any related issues.
 
 Code Standards
-Code style: This project uses ESLint and Prettier for code formatting and linting. Please run linting before submitting your pull request.
-```
-npm run lint
-```
+Code style guidelines will be enforced with ESLint and Prettier in the future.
+At the moment a lint script has not been configured, so you can skip running
+`npm run lint`. Feel free to format your code according to common conventions.
+
+TODO: add an ESLint configuration and accompanying script.
 Feature Requests
 If you'd like to suggest a new feature, feel free to open an issue with a detailed description of the feature and how you envision it working. Pull requests for new features are also welcome.
 
